@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content=""/>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	</head>
+	<body background="img/user.png" class="background2" id="back_img">
+		
+		<div id="User">
+			<form id="NPSform" style= "text-align:center" onsubmit='return getScore();'>
+                <input type="text" name="school" class="school">　　ex) 서울초등학교<br>
+                <input type="text" name="syear" class="syear">
+                <input type="text" name="sclass" class="sclass"><br>
+                <input type="text" name="snum" class="snum"><br>
+                <input type="text" name="scores" class="scores"><br>
+                <div class="survey1">
+                    <input type="radio" name="survey1" checked id="1" value="매우만족">매우만족
+				    <input type="radio" name="survey1" id="2" value="만족">만족
+                    <input type="radio" name="survey1" id="3" value="보통">보통
+				    <input type="radio" name="survey1" id="4" value="불만족">불만족
+				    <input type="radio" name="survey1" id="5" value="매우불만족">매우불만족
+                </div>
+                <div class="survey2">
+                    <input type="radio" name="survey2" checked id="1" value="매우만족">매우만족
+				    <input type="radio" name="survey2" id="2" value="만족">만족
+                    <input type="radio" name="survey2" id="3" value="보통">보통
+				    <input type="radio" name="survey2" id="4" value="불만족">불만족
+				    <input type="radio" name="survey2" id="5" value="매우불만족">매우불만족
+                </div>
+                <div>
+                    <input type="text" name="survey3" class="survey3">
+                </div>
+                
+                <input type="submit" name="mysubmit" value="제출하기" class="button" onclick="getScore();"/>
+
+			</form>
+        	<br>
+		</div>
+
+		<!-- 기능영역 -->
+		<script src="./quiz.js"></script>
+	
+	</body>
+</html>

@@ -1,0 +1,267 @@
+.title {
+	font-weight: bold;
+	font-size: 30px;
+}
+body{
+	background-color : #fce3c2;
+}
+
+.number{
+	margin-top: 80px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+}
+
+.label{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.problem{
+	text-align: center;
+	margin-top: -20px;
+}
+
+.problem_img{
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.answer{
+	text-align: center;
+	margin-top: -50px;
+}
+
+.button.o{
+	background: transparent;
+	border: 0;
+}
+
+.button.o:hover{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+.button.o:active{
+	background: transparent;
+	border: 0;
+}
+
+.button.o:focus{
+	background: transparent;
+	border: 0;
+}
+
+.button.x{
+	background: transparent;
+	border: 0;
+}
+
+.button.x:hover{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+.button.x:active{
+	background: transparent;
+	border: 0;
+}
+
+.button.x:focus{
+	background: transparent;
+	border: 0;
+}
+
+.button.res{
+	width: 150px;
+	color: #ffffff;
+	background: #79aff8;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 100px;
+	margin-right: 10px;
+}
+
+.button.res:hover{
+	background: #3084f4;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button.res:focus{
+	background-color: #3084f4;
+	outline: 0;
+}
+
+.button.restart{
+	width: 150px;
+	color: #ffffff;
+	background: #f88379;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.button.restart:hover{
+	background-color: #e63a00;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button.restart:focus{
+	background-color: #e63a00;
+	outline: 0;
+}
+
+.admin{
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+/* 백그라운드 이미지 */
+.background{
+	background-position: center 10px;
+	background-size: 1000px;
+	background-repeat: no-repeat;
+}
+
+.o_img{
+	width: 160px;
+	position: center fixed;
+}
+
+.x_img{
+	width: 160px;
+	position: center fixed;
+}
+
+.gstart{
+	visibility: visible;
+}
+
+/* 라디오버튼 */
+.Survey{
+	text-align: center;
+	color: white;
+	margin-top: 150px;
+}
+
+
+/* index2 버튼 */
+.button2{
+	margin-top: 35px;
+	width: 150px;
+	color: #ffffff;
+	background: #f88379;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.button2:hover{
+	background-color: #e63a00;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button2:focus{
+	background-color: #e63a00;
+	outline: 0;
+}
+
+
+/*  */
+body {
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+
+.swal-wide{
+	width: 1000px !important;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 사용자정보 입력 페이지 */
+.background2{
+	background-position: center 10px;
+	background-size: 700px;
+	background-repeat: no-repeat;
+}
+
+.school{
+    margin-top: 310px;
+    margin-left: 54px;
+    width: 120px;
+}
+
+.syear{
+    width: 120px;
+    margin-left: 103px;
+}
+
+.sclass{
+    margin-top: 26px;
+    margin-left: 70px;
+    width: 120px;
+}
+
+.snum{
+    margin-top: 26px;
+    margin-right: 100px;
+    width: 120px;
+}
+
+.scores{
+    margin-top: 26px;
+    margin-left: 350px;
+    width: 60px;
+}
+
+.survey1{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.survey2{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.survey3{
+    margin-top: 45px;
+    margin-left: 0px;
+    width: 550px;
+    height: 100px;
+}
+
+
+/* 제출하기 버튼 */
+.button{
+	width: 150px;
+	color: #ffffff;
+	background: #f6ad3c;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+
+.button:hover{
+	background-color: #d38d21;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button:focus{
+	background-color: #f6ad3c;
+	outline: 0;
+}
